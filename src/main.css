@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.container{
+    @apply grid grid-cols-2 gap-5 py-4 px-5;
+}
+
+.user-container{
+    @apply grid gap-5 py-4 px-5;
+}
+
+input, select, textarea{
+    @apply outline-none border border-gray-500;
+}
+
+input[type="checkbox"]{
+    @apply mr-2;
+}
+
+.form-group{
+    @apply flex flex-col mb-2;
+}
+
+button{
+    @apply border border-gray-300 px-5 py-1;
+}
+
+.btn-right{
+    @apply flex justify-end;
+}
+
+.back-btn{
+    @apply bg-gray-600 text-gray-50;
+}
+
+table{
+    @apply border border-collapse;
+}
+
+table tr td, table tr th{
+    @apply border border-gray-500 py-2;
+}
+tbody tr td{
+    @apply pl-5;
+}
+
+
+.col2{
+    @apply grid grid-cols-2 gap-5;
+}
+
+.cst-col-4{
+    @apply grid grid-cols-4 gap-2;
+}
+
+.cst-col-3{
+    @apply grid grid-cols-3 gap-2;
+}
+
+.cst-col-2{
+    @apply grid grid-cols-2 gap-2;
+}
+
+.py-2{
+    @apply pb-5;
+}
+
+.cst-header-sub{
+    @apply py-5;
+}
+
+h3{
+    @apply text-2xl;
+}
